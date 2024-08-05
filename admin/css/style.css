@@ -1,0 +1,17 @@
+.divImage{
+  height: 250px;
+  width: 200px;
+  border: 2px solid black; */
+  
+}
+#imgdiv{
+ /* max-height: 100%;
+  max-width: 100%; */
+  max-width: 100%;
+  margin: auto;
+  
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
