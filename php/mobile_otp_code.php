@@ -8,8 +8,8 @@ use Twilio\Rest\Client;
 function otp_verify($mobile_num,$otp)
 {
   //trial key 
-  $sid = "ACd420dd3eb24be5b796d04d8577a0ee9a";
-$token = "031d299b18d6d4bcb7a56d85db67bd96";
+  $sid = "AC3c02da4c898a916ac3b4dfb4d5c57230";
+$token = "b431e45872752be9271eb9ccfe86e8db";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
