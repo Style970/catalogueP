@@ -160,7 +160,7 @@ session_start();
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
+            <a href="user_dashbord/profile.php" class="nav-link">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Profile
@@ -180,7 +180,7 @@ session_start();
           <?php endif ?>
           <li class="nav-header">SETTINGS</li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="user_dashbord/contact.php" class="nav-link">
               <i class="nav-icon fas fa-phone"></i>
               <p>
                 Contact
@@ -188,7 +188,7 @@ session_start();
             </a>
           </li>
            <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="user_dashbord/contactus.php" class="nav-link">
               <i class="nav-icon fas fa-address-book"></i>
               <p>
                 Contact Us
@@ -196,7 +196,7 @@ session_start();
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="user_dashbord/privacy_policy.php" class="nav-link">
               <i class="nav-icon fas fa-shield-alt"></i>
               <p>
                 Privacy Policy
@@ -204,10 +204,18 @@ session_start();
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="user_dashbord/terms_condition.php" class="nav-link">
               <i class="nav-icon fas fa-file-contract"></i>
               <p>
                 Terms & Condition
+              </p>
+            </a>
+          </li>
+             <li class="nav-item">
+            <a href="user_dashbord/faq.php" class="nav-link">
+              <i class="nav-icon fa fa-question-circle" aria-hidden="true"></i>
+              <p>
+                FAQ
               </p>
             </a>
           </li>

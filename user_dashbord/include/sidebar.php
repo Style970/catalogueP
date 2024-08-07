@@ -57,9 +57,7 @@
               </li>
             </ul>
           </li>
-          
-          <li class="nav-header">SETTINGS</li>
-          <li class="nav-item">
+           <li class="nav-item">
             <a href="profile.php" class="nav-link">
               <i class="nav-icon far fa-user"></i>
               <p>
@@ -72,15 +70,13 @@
            <div class="bg-dark-subtle">
          <form action="include/logout.php" method="post">
          <button type="submit" class="dropdown-item text-danger" name="logout_btn"> 
-           logout
-           <i class="fas fa-power-off"></i>
+           <i class="nav-icon fas fa-power-off"></i>logout
          </button>
        </form>
          </div>
-       </li>
-           <?php endif ?>
+       </li> <?php endif ?>
           
-          
+          <li class="nav-header">--------------------------------</li>
           <li class="nav-item">
             <a href="contact.php" class="nav-link">
               <i class="nav-icon fa fa-phone"></i>
@@ -89,8 +85,16 @@
               </p>
             </a>
           </li>
+           <li class="nav-item">
+            <a href="contactus.php" class="nav-link">
+              <i class="nav-icon fas fa-address-book"></i>
+              <p>
+                Contact Us
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="privacy_policy.php" class="nav-link">
               <i class="nav-icon fas fa-shield-alt"></i>
               <p>
                 Privacy Policy
@@ -98,14 +102,21 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="terms_condition.php" class="nav-link">
               <i class="nav-icon fas fa-file-contract"></i>
               <p>
                 Terms & Condition
               </p>
             </a>
           </li>
-          
+          <li class="nav-item">
+            <a href="faq.php" class="nav-link">
+              <i class="nav-icon fa fa-question-circle" aria-hidden="true"></i>
+              <p>
+                FAQ
+              </p>
+            </a>
+          </li>
         
         </ul>
       </nav>
